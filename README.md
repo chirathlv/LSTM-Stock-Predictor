@@ -26,19 +26,20 @@ Problem setup is that one model will use the FNG indicators to predict the closi
 
 - [x] Used the Testing data to evaluate each model and compared the performances. Then following questions answered.
 
-1. Which model has a lower loss?
+> Which model has a lower loss?
 
-   ```diff
-   Second model with window prices to predict the nth price has the lower loss
-   ```
+```diff
+Second model with window prices to predict the nth price has the lower loss
+```
 
-2. Which model tracks the actual values better over time?
+> Which model tracks the actual values better over time?
 
-   ```diff
-   Second model with window prices to predict the nth price has the lower loss
-   ```
+```diff
+Second model with window prices to predict the nth price has the lower loss
+```
 
-3. Which window size works best for the model?
-   ```diff
-   Window size of 3 gave the better results with other hyper-parameters
-   ```
+> Which window size works best for the model?
+
+```diff
+Window size of 3 gave the better results with other hyper-parameters
+```

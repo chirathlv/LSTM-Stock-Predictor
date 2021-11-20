@@ -18,11 +18,9 @@ Problem setup is that one model will use the FNG indicators to predict the closi
 
 > Build and train custom LSTM RNNs
 
-```diff
-Three LSTM Layers of 30 hidden units with dropout (0.2) used to build the model as below
+- [x] Three LSTM Layers of 30 hidden units with dropout (0.2) used to build the model as below
 
-Input Layer > [LSTM Layer with Dropout] > [LSTM Layer with Dropout Layer] > [LSTM Layer with Dropout] > Output Layer
-```
+- [x] `Input Layer > [LSTM Layer with Dropout] > [LSTM Layer with Dropout Layer] > [LSTM Layer with Dropout] > Output Layer`
 
 > Evaluate the performance of each model
 

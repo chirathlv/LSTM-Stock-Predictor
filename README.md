@@ -8,7 +8,7 @@ Here two deep learning models have been built and evaluated using both the FNG v
 
 Problem setup is that one model will use the FNG indicators to predict the closing price while the second model will use a window prices to predict the nth closing price.
 
-> **Prepare the data for training and testing**
+**Prepared the data for training and testing**
 
 - [x] Data has been splitted as 70% for training and 30% for testing.
 
@@ -16,13 +16,13 @@ Problem setup is that one model will use the FNG indicators to predict the closi
 
 - [x] Reshaped the X_train and X_test values to fit the model's requirment of samples, time steps, and features (example: `X_train = X_train.reshape((X_train.shape[0], X_train.shape[1], 1))`)
 
-> **Build and train custom LSTM RNNs**
+**Built and trained custom LSTM RNNs**
 
 - [x] Three LSTM Layers of 30 hidden units with dropout (0.2) used to build the model as below
 
 - [x] `Input Layer > [LSTM Layer with Dropout] > [LSTM Layer with Dropout Layer] > [LSTM Layer with Dropout] > Output Layer`
 
-> **Evaluate the performance of each model**
+**Evaluated the performance of each model**
 
 - [x] Used the Testing data to evaluate each model and compared the performances. Then following questions answered.
 

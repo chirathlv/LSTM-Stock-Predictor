@@ -10,11 +10,10 @@ Problem setup is that one model will use the FNG indicators to predict the closi
 
 > Prepare the data for training and testing
 
-> `1. Data has been splitted as 70% for training and 30% for testing.`
+- [x] Data has been splitted as 70% for training and 30% for testing.
 
-> `2. Applied MinMaxScaler to the X and y values to scale the data for the model`
-
-> `` 3. Reshaped the X_train and X_test values to fit the model's requirment of samples, time steps, and features (example: `X_train = X_train.reshape((X_train.shape[0], X_train.shape[1], 1))`) ``
+2. Applied MinMaxScaler to the X and y values to scale the data for the model
+3. Reshaped the X_train and X_test values to fit the model's requirment of samples, time steps, and features (example: `X_train = X_train.reshape((X_train.shape[0], X_train.shape[1], 1))`)
 
 > Build and train custom LSTM RNNs
 

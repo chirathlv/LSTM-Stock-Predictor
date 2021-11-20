@@ -1,3 +1,48 @@
 ![LSTM-Stock-Predictor](https://github.com/chirathlv/LSTM-Stock-Predictor/blob/main/Images/banner.jpg)
 
 # LSTM-Stock-Predictor
+
+Due to the volatility of cryptocurrency speculation, investors will often try to incorporate sentiment from social media and news articles to help guide their trading strategies. One such indicator is the `Crypto Fear and Greed Index (FNG)` which attempts to use a variety of data sources to produce a daily FNG value for cryptocurrency.
+
+Here two deep learning models have been built and evaluated using both the FNG values and historical closing prices for Bitcoin to determine if the FNG indicators provides a better signal for cryptocurrencies than the normal closing price data.
+
+Problem setup is that one model will use the FNG indicators to predict the closing price while the second model will use a window prices to predict the nth closing price.
+
+> Prepare the data for training and testing
+
+```diff
+1. Data has been splitted as 70% for training and 30% for testing.
+2. Applied MinMaxScaler to the X and y values to scale the data for the model
+3. Reshaped the X_train and X_test values to fit the model's requirment of samples, time steps, and features (example: `X_train = X_train.reshape((X_train.shape[0], X_train.shape[1], 1))`)
+```
+
+> Build and train custom LSTM RNNs
+
+```diff
+Three LSTM Layers of 30 hidden units with dropout (0.2) used to build the model as below
+
+Input Layer > [LSTM Layer with Dropout] > [LSTM Layer with Dropout Layer] > [LSTM Layer with Dropout] > Output Layer
+```
+
+> Evaluate the performance of each model
+
+```diff
+Used the Testing data to evaluate each model and compared the performances. Then following questions answered.
+```
+
+1. Which model has a lower loss?
+
+   ```diff
+   Second model with window prices to predict the nth price has the lower loss
+   ```
+
+2. Which model tracks the actual values better over time?
+
+   ```diff
+   Second model with window prices to predict the nth price has the lower loss
+   ```
+
+3. Which window size works best for the model?
+   ```diff
+   Window size of 3 gave the better results with other hyper-parameters
+   ```

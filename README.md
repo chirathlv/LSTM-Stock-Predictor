@@ -29,22 +29,16 @@ window prices to predict the nth closing price.
 
 ### Evaluated the performance of each model
 
-- [x] Used the Testing data to evaluate each model and compared the performances. Then following questions answered.
+- [x] Used the Testing data to evaluate each model and compared the performances.
 
 > `Which model has a lower loss?`
 
-```diff
-Second model with window prices to predict the nth price has the lower loss
-```
+- [x] Second model with window prices to predict the nth price has the lower loss
 
 > `Which model tracks the actual values better over time?`
 
-```diff
-Second model with window prices to predict the nth price has the lower loss
-```
+- [x] Second model with window prices to predict the nth price has the lower loss
 
 > `Which window size works best for the model?`
 
-```diff
-Window size of 3 gave the better results with other hyper-parameters
-```
+- [x] Window size of 3 gave the better results with other hyper-parameters

@@ -6,7 +6,11 @@ Due to the volatility of cryptocurrency speculation, investors will often try to
 
 Here two deep learning models have been built and evaluated using both the FNG values and historical closing prices for Bitcoin to determine if the FNG indicators provides a better signal for cryptocurrencies than the normal closing price data.
 
-Problem setup is that one model will use the FNG indicators to predict the closing price while the second model will use a window prices to predict the nth closing price.
+### Problem setup
+
+```diff
+One model will use the FNG indicators to predict the closing price while the second model will use a window prices to predict the nth closing price.
+```
 
 ### Prepared the data for training and testing
 

@@ -9,8 +9,8 @@ Here two deep learning models have been built and evaluated using both the FNG v
 ### Problem setup
 
 ```diff
-One model will use the FNG indicators to predict the closing price while the second model will use a window
-prices to predict the nth closing price
+One model will use the FNG indicators to predict the closing price while the second model will use a
+window prices to predict the nth closing price
 ```
 
 ### Prepared the data for training and testing

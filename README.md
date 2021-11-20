@@ -13,8 +13,6 @@ One model will use the FNG indicators to predict the closing price while the sec
 window prices to predict the nth closing price.
 ```
 
----
-
 ### Prepared the data for training and testing
 
 - [x] Data has been splitted as 70% for training and 30% for testing.
@@ -33,21 +31,19 @@ window prices to predict the nth closing price.
 
 - [x] Used the Testing data to evaluate each model and compared the performances. Then following questions answered.
 
----
-
-> Which model has a lower loss?
+> `Which model has a lower loss?`
 
 ```diff
 Second model with window prices to predict the nth price has the lower loss
 ```
 
-> Which model tracks the actual values better over time?
+> `Which model tracks the actual values better over time?`
 
 ```diff
 Second model with window prices to predict the nth price has the lower loss
 ```
 
-> Which window size works best for the model?
+> `Which window size works best for the model?`
 
 ```diff
 Window size of 3 gave the better results with other hyper-parameters

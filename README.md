@@ -24,9 +24,7 @@ Problem setup is that one model will use the FNG indicators to predict the closi
 
 > Evaluate the performance of each model
 
-```diff
-Used the Testing data to evaluate each model and compared the performances. Then following questions answered.
-```
+- [x] Used the Testing data to evaluate each model and compared the performances. Then following questions answered.
 
 1. Which model has a lower loss?
 

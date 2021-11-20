@@ -31,14 +31,14 @@ window prices to predict the nth closing price.
 
 - [x] Used the Testing data to evaluate each model and compared the performances.
 
-> `Which model has a lower loss?`
+1. `Which model has a lower loss?`
 
 - [x] Second model with window prices to predict the nth price has the lower loss
 
-> `Which model tracks the actual values better over time?`
+2. `Which model tracks the actual values better over time?`
 
 - [x] Second model with window prices to predict the nth price has the lower loss
 
-> `Which window size works best for the model?`
+3. `Which window size works best for the model?`
 
 - [x] Window size of 3 gave the better results with other hyper-parameters

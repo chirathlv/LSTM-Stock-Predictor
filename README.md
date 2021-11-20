@@ -10,26 +10,30 @@ Here two deep learning models have been built and evaluated using both the FNG v
 
 ```diff
 One model will use the FNG indicators to predict the closing price while the second model will use a
-window prices to predict the nth closing price
+window prices to predict the nth closing price.
 ```
+
+---
 
 ### Prepared the data for training and testing
 
 - [x] Data has been splitted as 70% for training and 30% for testing.
 
-- [x] Applied MinMaxScaler to the X and y values to scale the data for the model
+- [x] Applied MinMaxScaler to the X and y values to scale the data for the model.
 
-- [x] Reshaped the X_train and X_test values to fit the model's requirment of samples, time steps, and features (example: `X_train = X_train.reshape((X_train.shape[0], X_train.shape[1], 1))`)
+- [x] Reshaped the X_train and X_test values to fit the model's requirment of samples, time steps, and features (example: `X_train = X_train.reshape((X_train.shape[0], X_train.shape[1], 1))`).
 
 ### Built and trained custom LSTM RNNs
 
-- [x] Three LSTM Layers of 30 hidden units with dropout (0.2) used to build the model as below
+- [x] Three LSTM Layers of 30 hidden units with dropout (0.2) used to build the model as below.
 
 - [x] `Input Layer > [LSTM Layer with Dropout] > [LSTM Layer with Dropout Layer] > [LSTM Layer with Dropout] > Output Layer`
 
 ### Evaluated the performance of each model
 
 - [x] Used the Testing data to evaluate each model and compared the performances. Then following questions answered.
+
+---
 
 > Which model has a lower loss?
 
